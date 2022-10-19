@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1,div,img{
+    text-align: center;
+}
+img{
+    width: 50vw;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background: rgb(234, 203, 28);
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+body{
+    background: rgb(27, 238, 242);
+    animation: changebg 60s linear infinite;
+}
+
+@keyframes changebg {
+    0%{
+        background: rgb(203, 237, 11);
+    }
+    25%{
+        background: rgb(244, 10, 10);
+    }
+    50%{
+        background: rgb(242, 144, 144);
+    }
+    75%{
+        background: rgb(157, 209, 205);
+    }
+    100%{
+        background: rgb(63, 205, 105);
+    }
+}
+
+
+/* inorder to make search dynamic we need to add javascript... */
